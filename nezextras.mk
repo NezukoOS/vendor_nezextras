@@ -16,3 +16,6 @@ LOCAL_PATH := vendor/nezextras
 
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+# Inherit from audio config
+$(call inherit-product, vendor/nezextras/config/audio.mk)
