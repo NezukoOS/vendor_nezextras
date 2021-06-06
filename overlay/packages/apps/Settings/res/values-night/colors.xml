@@ -14,7 +14,7 @@
 <resources>
 
     <color name="search_bar_background">#00000000</color>
-    <color name="dialog_background">#FF242424</color>
-    <color name="notification_importance_selection_bg">#FF242424</color>
+    <color name="dialog_background">#FF000000</color>
+    <color name="notification_importance_selection_bg">#FF000000</color>
 
 </resources>
