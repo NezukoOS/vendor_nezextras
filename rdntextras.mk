@@ -12,10 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/nezextras
-
-PRODUCT_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+LOCAL_PATH := vendor/rdntextras
 
 # Inherit from audio config
-$(call inherit-product, vendor/nezextras/config/audio.mk)
+$(call inherit-product, vendor/rdntextras/config/audio.mk)
