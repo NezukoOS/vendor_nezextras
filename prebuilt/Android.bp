@@ -1,0 +1,11 @@
+android_library_import  {
+    name: "ColorPicker",
+    aars: ["colorpicker/colorpickerview.aar"],
+    sdk_version: "system_current",
+    min_sdk_version: "15",
+    static_libs: [
+        "androidx.core_core",
+        "androidx.appcompat_appcompat",
+    ],
+}
+
