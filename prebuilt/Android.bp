@@ -9,3 +9,22 @@ android_library_import  {
     ],
 }
 
+android_app_import {
+    name: "RadiantWizard",
+    apk: "suw/RadiantWizard.apk",
+    system_ext_specific: true,
+    presigned: true,
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    required: ["privapp_whitelist_com.radiant.setupwizard"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.radiant.setupwizard",
+    system_ext_specific: true,
+    src: "suw/privapp_whitelist_com.radiant.setupwizard.xml",
+    sub_dir: "permissions",
+    filename_from_src: true,
+}
